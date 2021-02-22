@@ -8,9 +8,10 @@
 
     <ImageView
         android:id="@+id/ivProfileImage"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:srcCompat="@tools:sample/avatars"
+         />
 
     <TextView
         android:id="@+id/tvScreenName"
@@ -18,16 +19,18 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="Zeng112233"
-        android:textSize="17sp" />
+        android:text="HannahZeng"
+        android:textColor="#022C3C"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/tvBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvScreenName"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="This is my first tweet!!" />
+        android:text="This is the first tweet!"
+        android:textColor="#070606" />
 </RelativeLayout>
