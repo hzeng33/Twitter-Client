@@ -2,16 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rcTweets"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
 
     <ImageView
         android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
         tools:srcCompat="@tools:sample/avatars"
-         />
+       />
 
     <TextView
         android:id="@+id/tvScreenName"
@@ -20,7 +20,7 @@
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:text="HannahZeng"
-        android:textColor="#022C3C"
+        android:textColor="@color/dark_blue"
         android:textSize="15sp" />
 
     <TextView
@@ -32,5 +32,16 @@
         android:layout_marginTop="3dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:text="This is the first tweet!"
-        android:textColor="#070606" />
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvTimeStamp"
+        android:layout_width="45dp"
+        android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="212dp"
+        android:textColor="#171515"
+        tools:text="9h" />
+
 </RelativeLayout>
