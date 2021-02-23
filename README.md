@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/hdlT3Mk.gif' title='Video Walkthrough' width='180'/>
+<img src='https://i.imgur.com/hdlT3Mk.gif' title='Video Walkthrough' width='200dp'/>
 
 GIF created with [ScreenToGif](https://www.screentogif.com/).
 
