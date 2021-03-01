@@ -11,5 +11,6 @@
     <color name="twitter_blue">#ff1da1f2</color>
     <color name="black">#151111</color>
     <color name="dark_blue">#010f56</color>
-
+    <color name="red">#ec1919</color>
+    <color name="purple">#835AF1</color>
 </resources>
